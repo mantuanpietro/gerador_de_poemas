@@ -49,7 +49,7 @@ def generate_poem(tema, sentimento, estilo):
 
     response = cliente.models.generate_content(
 
-        model="gemini-2.0-flash-lite",
+        model="gemini-3.5-pro",
 
         contents=prompt,
 
